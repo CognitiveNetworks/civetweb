@@ -1,0 +1,12 @@
+Source: civetweb
+Maintainer: Ivo Vachkov <ivo.vachkov@cognitivenetworks.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9)
+
+Package: libcivetweb
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This is package for LibCIVETWEB
+ The following package contains LibCIVETWEB used in c-UMP
