@@ -7,4 +7,6 @@ override_dh_auto_build:
 	dh_auto_build -- slib
 	
 override_dh_auto_install:
+	dh_install include/CivetServer.h /usr/include/civetweb/
+	dh_install include/civetweb.h /usr/inclide/civetweb/
 	dh_install libcivetweb.so /usr/lib/
